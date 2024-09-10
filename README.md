@@ -22,12 +22,13 @@ This project was created on Code.org's JavaLab platform using the built in Neigh
 
 1. Describe your project.
 
-   - Write your response here...
+   This project uses 4 files, NeighborhoodRunner, PainterPlus, BackgroundPainter, and SpidermanPainter.The BackgroundPainter is instantiated first to draw a white background across the whole board. Then, the SpidermanPainter is instantiated to draw the Spiderman face and body. 
 
 2. What are two things about your project that you are proud of?
 
-   - Write your response here...
+   - I am proud that I was able to debug my coding errors with relative ease. 
+   - I am also proud of how well the finished product resembles the actual character. 
 
 3. Describe something you would improve or do differently if you had an opportunity to change something about your project.
 
-   - Write your response here...
+   - I would like to use more methods to shorten my code to make less room for mistakes. For example, make a method that allows the painter to move a specific number of spaces with one line of code, instead of moving the painter only one space at a time. 
