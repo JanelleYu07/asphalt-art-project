@@ -16,7 +16,7 @@ This project was created on Code.org's JavaLab platform using the built in Neigh
 
 ## Output:
 
-< Put sketch / Final image here >
+![Asphalt Art Project Spiderman Drawing](SpidermanDrawing.png)
 
 ## Reflection
 
