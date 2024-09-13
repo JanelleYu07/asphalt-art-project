@@ -46,7 +46,7 @@ public class BackgroundPainter extends PainterPlus {
   
 
   /*
-   * Turns the MuralPainter to the next row to
+   * Turns the BackgroundPainter to the next row to
    * face west if it is currently facing east
    */
   
@@ -59,7 +59,7 @@ public class BackgroundPainter extends PainterPlus {
   }
 
   /*
-   * Turns the MuralPainter to the next row to
+   * Turns the BackgroundPainter to the next row to
    * face east if it is currently facing west
    */
   
@@ -72,7 +72,7 @@ public class BackgroundPainter extends PainterPlus {
   }
 
   /*
-   * Turns the MuralPainter around to face the opposite direction
+   * Turns the BackgroundPainter around to face the opposite direction
    */
   
   public void turnAround() {
@@ -81,7 +81,7 @@ public class BackgroundPainter extends PainterPlus {
   }
   
   /*
-   * Moves the MuralPainter to the bottom right corner
+   * Moves the BackgroundPainter to the bottom right corner
    */
   
   public void moveToCorner() {

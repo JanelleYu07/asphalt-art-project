@@ -8,21 +8,32 @@ public class PainterPlus extends Painter {
     turnLeft();
   }
 
-  // Painter takes paint 
+  /*
+  * Painter takes paint 
+  */
+  
    public void takeAllPaint() {
      while(isOnBucket()) {
        takePaint();
      }
    }
+  
 
-  // Painter moves forward until painter has reached a roadblock
+  /*
+  *  Painter moves forward until painter has reached a roadblock
+  */
+  
   public void moveFast() {
     while(canMove()) {
       move();
     }
   }
 
-  // Painter paints and moves forward one spaces
+  
+  /*
+  * Painter paints and moves forward one spaces
+  */
+  
   public void paintToEmpty(String color) {
     while(hasPaint()) {
       paint(color);
@@ -30,8 +41,12 @@ public class PainterPlus extends Painter {
     }
   }
 
+  
 
-  // Painter paints donuts
+  /*
+  *  Painter paints donuts
+  */
+  
   public void paintDonut(String color) {
     while (hasPaint()){
       turnRight();
