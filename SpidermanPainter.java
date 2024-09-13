@@ -9,9 +9,17 @@ public class SpidermanPainter extends BackgroundPainter {
   public void paintSpiderman() {
     paintFace();
     paintBody();
-    turnAround();
+    
+    if (isFacingWest()) {
+      turnAround();
+      moveToCorner();
+    } // End of if statement
+      
+    else {
     moveToCorner();
- }
+     } // End of else statement
+    
+    } // End of paintSpiderman method
  
   /*
   * Painter paints Spiderman face
@@ -19,7 +27,7 @@ public class SpidermanPainter extends BackgroundPainter {
   
   public void paintFace() {
     
-   /*
+    /*
     * Painter moves to the beginning of the face
     */
     
@@ -70,7 +78,7 @@ public class SpidermanPainter extends BackgroundPainter {
     paint("black");
     move();
 
-  // Painter paints 5th row of face
+    // Painter paints 5th row of face
     turnToEast();
     paint("black");
     move();
